@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.mainframe {
+    width: 100%;
+}
+
+.input {
+    margin: auto;
+    width: 600px;
+    /* border: 1px solid gray; */
+    box-shadow: 0px 0px 2px 2px #7F8C8D;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: white;
+    background-image: linear-gradient(rgb(109, 181, 204), rgb(110, 58, 161), rgb(161, 58, 147));
+
+}
+
+.input h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.in {
+    width: 400px;
+    padding: 5px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+}
+
+.add {
+    font-size: 15px;
+    padding: 5px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    /* margin-left: -35px; */
+    cursor: pointer;
+}
+.edit {
+    font-size: 15px;
+    padding: 5px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add:hover {
+    opacity: 0.8;
+}
+
+.tasks {
+    margin: auto;
+    width: 600px;
+    /* border: 1px solid gray; */
+    box-shadow: 0px 0px 2px 2px #7F8C8D;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: white;
+    margin-top: 10px;
+
+}
+
+.list {
+    border-bottom: 0.5px solid rgb(171, 167, 167);
+    text-align: left;
+    padding: 5px 5px;
+
+}
+
+.list:hover {
+    color: aliceblue;
+    background-color: rgb(164, 150, 177);
+    text-decoration: line-through;
+
+}
